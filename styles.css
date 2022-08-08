@@ -1,5 +1,5 @@
 body {
-    background-color: cornflowerblue;
+    background-color: #232323;
     color: aliceblue;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,4 +12,8 @@ h1 {
 p {
     font-size: 1.5vw;
     margin: 0% 10%;
+}
+
+a {
+    color: inherit;
 }
