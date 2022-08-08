@@ -8,6 +8,15 @@ body {
 
 h1 {
     font-size: 5vw;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+hr {
+    margin: 4%;
 }
 
 p {
@@ -23,9 +32,11 @@ iframe {
     border: none;
     width: 1154px;
     height: 866px;
+    margin: 2% 0;
 }
 
 #resume {
     width: 760px;
     height: 1013px;
+    margin: 0%;
 }
