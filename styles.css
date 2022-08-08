@@ -20,4 +20,11 @@ a {
 
 iframe {
     border: none;
+    width: 90%;
+    height: 1013px;
+}
+
+#resume {
+    width: 760px;
+    height: 1013px;
 }
