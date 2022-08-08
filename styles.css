@@ -4,15 +4,35 @@ body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 30px;
+    animation: alternate 5s colorChange infinite;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: rgb(19, 19, 19);
+    }
+
+    to {
+        background-color: rgb(38, 38, 38);
+    }
 }
 
 h1 {
     font-size: 5vw;
     text-decoration: underline;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(11, 0, 65, 0.9500175070028011) 32%, rgb(17, 117, 136) 100%);
 }
 
 h2 {
     font-size: 3vw;
+}
+
+h3 {
+    font-size: 2.5vw;
+}
+
+h4 {
+    font-style: italic;
 }
 
 hr {
