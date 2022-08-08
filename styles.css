@@ -1,0 +1,10 @@
+body {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 5vw;
+}
