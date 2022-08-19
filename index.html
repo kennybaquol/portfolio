@@ -26,33 +26,53 @@
 
     <h1>Resume</h1>
     <iframe id="resume"
-        src="https://docs.google.com/document/d/e/2PACX-1vQvueSgI0TbrVLGLQt_HfPebDc_LWgIgjnPhbt_5JaP9Vjv29ckkskKd5SGOq3J34wS6laOKpL1gI9q/pub?embedded=true"></iframe>
-    <hr>
+        src="https://docs.google.com/document/d/e/2PACX-1vQvueSgI0TbrVLGLQt_HfPebDc_LWgIgjnPhbt_5JaP9Vjv29ckkskKd5SGOq3J34wS6laOKpL1gI9q/pub?embedded=true">
+    </iframe>
+    <!-- Show link instead of embedded resume if screen is too small -->
+    <h3>
+        <a href="https://docs.google.com/document/d/e/2PACX-1vQvueSgI0TbrVLGLQt_HfPebDc_LWgIgjnPhbt_5JaP9Vjv29ckkskKd5SGOq3J34wS6laOKpL1gI9q/pub?embedded=true"
+            id="resume-link">
+            My Resume (click to view)
+        </a>
+    </h3>
+    <hr id="post-resume-line">
 
     <h1>Projects</h1>
 
     <h2>Pre-General Assembly</h2>
     <p>My Music Website: Built from scratch using HTML5, CSS, and JavaScript</p>
 
-    <iframe src="https://kennybaquolmusic.com">
+    <iframe id="website" src="https://kennybaquolmusic.com">
         <p>
             <a href="https://kennybaquolmusic.com">
                 Fallback link for browsers that don't support iframes
             </a>
         </p>
-    </iframe><hr>
+    </iframe>
+    <h3>
+        <a href="https://kennybaquolmusic.com" id="website-link">
+            Kenny Baquol Music (visit site)
+        </a>
+    </h3>
+    <hr>
 
     <h2>General Assembly | Project 1</h2>
     <p><a href="https://github.com/kennybaquol/the-ringer">The Ringer:</a> Built from scratch using HTML5, CSS, and
         JavaScript</p>
 
-    <iframe src="https://kennybaquol.github.io/the-ringer/">
+    <iframe id="the-ringer" src="https://kennybaquol.github.io/the-ringer/">
         <p>
             <a href="https://kennybaquol.github.io/the-ringer/">
                 Fallback link for browsers that don't support iframes
             </a>
         </p>
-    </iframe><hr>
+    </iframe>
+    <h3>
+        <a href="https://kennybaquol.github.io/the-ringer/" id="the-ringer-link">
+            The Ringer (visit site)
+        </a>
+    </h3>
+    <hr>
 
     <h2>General Assembly | Project 2</h2>
     <p><a href="https://github.com/kennybaquol/albumsaurus">Albumsaurus:</a> Built using MongoDB, Express, JavaScript,
@@ -62,23 +82,26 @@
         <a href="http://albumsaurus.herokuapp.com/">
             Albumsaurus (visit site)
         </a>
-    </h3><hr>
+    </h3>
+    <hr>
 
     <h2>General Assembly | Project 3</h2>
     <p><a href="https://github.com/kennybaquol/Dogvana">Dogvana:</a> Built using the MERN stack (MongoDB, Express,
         React, and Node)</p>
 
     <br><br>
-    <h4>(Refactoring and improving before re-deployment!)</h4><hr>
+    <h4>(Refactoring and improving before re-deployment!)</h4>
+    <hr>
 
     <h2>General Assembly | Project 4</h2>
-    <p><a href="https://github.com/kennybaquol/band-manager">Band Manager:</a> Built using Django, Django Rest Framework, Python, React, and
+    <p><a href="https://github.com/kennybaquol/band-manager">Band Manager:</a> Built using Django, Django Rest
+        Framework, Python, React, and
         Node</p>
 
     <h3>
         <a href="https://band-manager-2022.herokuapp.com/">
             Band Manager (visit site)
-        </a><hr>
+        </a>
     </h3>
 
     <script src="app.js"></script>
